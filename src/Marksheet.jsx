@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import * as XLSX from 'xlsx';
 import { v4 as uuidv4 } from 'uuid';
 import './Marksheet.css';
+import logo from './assets/szabist-logo-removebg-preview.png';
+
 
 export default function Marksheet() {
   const [studentName, setStudentName] = useState('');
@@ -138,7 +140,7 @@ export default function Marksheet() {
 
   return (
     <div className="marksheet-container">
-      <img src="src/assets/szabist-logo-removebg-preview.png" alt="Szabist Logo" className="logo" />
+      <img src={logo} alt="Szabist Logo" className="logo" />
       <h2>Marksheet Title</h2>
       <input
         className="input-field full-width"

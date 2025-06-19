@@ -138,6 +138,7 @@ export default function Marksheet() {
 
   return (
     <div className="marksheet-container">
+      <img src="src/assets/szabist-logo-removebg-preview.png" alt="Szabist Logo" className="logo" />
       <h2>Marksheet Title</h2>
       <input
         className="input-field full-width"

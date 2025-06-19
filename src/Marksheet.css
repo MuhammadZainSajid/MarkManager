@@ -8,6 +8,12 @@ body {
     color: #f3f4f6; /* light text */
   }
   
+  img{
+    max-width: 100%;
+    height: auto;
+    background-color: #ffffff;
+  }
+  
   .marksheet-container {
     max-width: 1100px;
     margin: 40px auto;
